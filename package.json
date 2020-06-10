@@ -1,0 +1,33 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "Shopping with Style with Dustin and Hackreactor",
+  "main": "/server/index.js",
+  "scripts": {
+    "react-dev": "npx babel ./client/src/app.jsx --out-dir public --watch",
+    "start": "nodemon server"
+  },
+  "author": "Dustin Morris",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-cli": "6.26.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.15.0",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.19.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.4.2",
+    "path": "^0.12.7",
+    "formidable": "^1.2.2"
+  }
+}
